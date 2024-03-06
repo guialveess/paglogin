@@ -52,7 +52,7 @@ body{
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
-    border-radius: 8px;
+    border-radius: 35px;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -128,17 +128,18 @@ body{
     }
 }
 
-.social-icons{
+.social-icons {
     margin: 20px 0;
 }
 
-.social-icons a{
+.social-icons a {
     border: 1px solid #ccc;
     border-radius: 20%;
+    padding: 1px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin: 0 3px;
+    margin: 0 3px 10px 3px; /* 10px de margem abaixo de cada botão */
     width: 40px;
     height: 40px;
 }
@@ -161,9 +162,9 @@ body{
 }
 
 .toggle{
-    background-color: #512da8;
+    background-color: #1B2235;
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
+    background: linear-gradient(to right, #1B2235, #1B2235);
     color: #fff;
     position: relative;
     left: -100%;
